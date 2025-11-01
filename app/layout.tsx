@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import MouseFollower from '@/components/MouseFollower'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -82,6 +83,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 dark:from-navy-900 dark:via-navy-800 dark:to-navy-700">
+            <MouseFollower />
             <Navbar />
             <main className="relative">
               {children}
