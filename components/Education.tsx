@@ -44,7 +44,7 @@ const Education = () => {
       institution: "Kalasalingam Academy of Research and Education",
       degree: "B.Tech Information Technology",
       period: "2021 - 2025",
-      grade: "CGPA: 8.5/10",
+      grade: "CGPA: 7.05/10",
       icon: GraduationCap,
       color: "from-blue-500 to-blue-700"
     },

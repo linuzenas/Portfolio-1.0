@@ -18,7 +18,12 @@ import {
   LuServer as Flask,
   LuDatabase as Database,
   LuBrain as Brain,
-  LuEye as Eye
+  LuEye as Eye,
+  LuCloud as Cloud,
+  LuBarChart as BarChart,
+  LuTerminal as Terminal,
+  LuCpu as Cpu,
+  LuLayout as Layout
 } from 'react-icons/lu'
 
 const About = () => {
@@ -29,24 +34,52 @@ const About = () => {
 
   const skillCategories = [
     { 
-      title: 'Frontend Technologies', 
-      skills: ['React', 'HTML5', 'CSS', 'JavaScript'],
-      color: 'from-blue-400 to-blue-600'
+      title: 'Frontend & Web', 
+      skills: ['React.js', 'Next.js', 'HTML5', 'Tailwind CSS', 'JavaScript'],
+      color: 'from-blue-400 to-blue-600',
+      icon: Layout
     },
     { 
       title: 'Languages', 
-      skills: ['Python', 'XML'],
-      color: 'from-green-400 to-green-600'
+      skills: ['Python', 'JavaScript', 'SQL', 'XML', 'DAX'],
+      color: 'from-green-400 to-green-600',
+      icon: Code
+    },
+    { 
+      title: 'Machine Learning', 
+      skills: ['Machine Learning', 'Computer Vision', 'NLP'],
+      color: 'from-purple-400 to-purple-600',
+      icon: Brain
+    },
+    { 
+      title: 'Data & Analytics', 
+      skills: ['Data Cleaning', 'Data Modeling', 'Pandas', 'NumPy', 'Power BI'],
+      color: 'from-yellow-400 to-orange-600',
+      icon: BarChart
+    },
+    { 
+      title: 'Libraries', 
+      skills: ['OpenCV', 'MediaPipe', 'Streamlit', 'Flask', 'Tkinter'],
+      color: 'from-pink-400 to-pink-600',
+      icon: Cpu
+    },
+    { 
+      title: 'Databases', 
+      skills: ['MongoDB', 'MySQL'],
+      color: 'from-indigo-400 to-indigo-600',
+      icon: Database
+    },
+    { 
+      title: 'Cloud & DevOps', 
+      skills: ['Azure', 'CI/CD', 'Docker'],
+      color: 'from-cyan-400 to-cyan-600',
+      icon: Cloud
     },
     { 
       title: 'Developer Tools', 
-      skills: ['Git', 'Github', 'Figma', 'Trello', 'API', 'PowerBI', 'Android Studio'],
-      color: 'from-purple-400 to-purple-600'
-    },
-    { 
-      title: 'Libraries/Frameworks', 
-      skills: ['OpenCV', 'MediaPipe', 'Pandas', 'NumPy', 'NLP', 'streamlit', 'Flask', 'Tkinter'],
-      color: 'from-pink-400 to-pink-600'
+      skills: ['Git', 'GitHub', 'Figma', 'REST APIs', 'Android Studio'],
+      color: 'from-slate-400 to-slate-600',
+      icon: Terminal
     }
   ]
 
@@ -230,7 +263,7 @@ const About = () => {
                   Currently Learning & Building
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {['DSA', 'AI/ML Concepts', 'API Integration', 'Advanced React', 'UI/UX Design'].map((item) => (
+                  {['Next.js', 'Docker', 'Azure', 'Power BI', 'Generative AI'].map((item) => (
                     <span
                       key={item}
                       className="px-3 py-1 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-sm font-medium"
@@ -249,73 +282,27 @@ const About = () => {
               Skills & Technologies
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {/* Frontend Card */}
-              <motion.div 
-                className="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 shadow-md rounded-lg p-6"
-                whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              >
-                <div className="text-center">
-                  <h4 className="text-xl font-semibold mb-4 text-primary-600 dark:text-primary-400">Frontend</h4>
-                  <div className="flex flex-wrap justify-center gap-2">
-                    {['React', 'HTML5', 'CSS', 'JavaScript'].map((skill) => (
-                      <span key={skill} className="px-3 py-1 bg-slate-100 dark:bg-navy-700 text-navy-700 dark:text-slate-200 rounded-full text-sm font-medium">
-                        {skill}
-                      </span>
-                    ))}
+              {skillCategories.map((category) => (
+                <motion.div 
+                  key={category.title}
+                  className="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 shadow-md rounded-lg p-6"
+                  whileHover={{ y: -5, transition: { duration: 0.2 } }}
+                >
+                  <div className="text-center">
+                    <div className={`w-12 h-12 mx-auto mb-4 rounded-full bg-gradient-to-r ${category.color} flex items-center justify-center`}>
+                      {category.icon && <category.icon className="text-white" size={24} />}
+                    </div>
+                    <h4 className="text-lg font-semibold mb-4 text-navy-800 dark:text-slate-200">{category.title}</h4>
+                    <div className="flex flex-wrap justify-center gap-2">
+                      {category.skills.map((skill) => (
+                        <span key={skill} className="px-2 py-1 bg-slate-100 dark:bg-navy-700 text-navy-700 dark:text-slate-200 rounded-full text-xs font-medium">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              </motion.div>
-              
-              {/* Languages Card */}
-              <motion.div 
-                className="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 shadow-md rounded-lg p-6"
-                whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              >
-                <div className="text-center">
-                  <h4 className="text-xl font-semibold mb-4 text-green-600 dark:text-green-400">Languages</h4>
-                  <div className="flex flex-wrap justify-center gap-2">
-                    {['Python', 'XML'].map((skill) => (
-                      <span key={skill} className="px-3 py-1 bg-slate-100 dark:bg-navy-700 text-navy-700 dark:text-slate-200 rounded-full text-sm font-medium">
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
-              
-              {/* Developer Tools Card */}
-              <motion.div 
-                className="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 shadow-md rounded-lg p-6"
-                whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              >
-                <div className="text-center">
-                  <h4 className="text-xl font-semibold mb-4 text-purple-600 dark:text-purple-400">Developer Tools</h4>
-                  <div className="flex flex-wrap justify-center gap-2">
-                    {['Git', 'Github', 'Figma', 'Trello', 'API'].map((skill) => (
-                      <span key={skill} className="px-3 py-1 bg-slate-100 dark:bg-navy-700 text-navy-700 dark:text-slate-200 rounded-full text-sm font-medium">
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
-              
-              {/* Libraries/Frameworks Card */}
-              <motion.div 
-                className="bg-white dark:bg-navy-800 border border-slate-200 dark:border-navy-700 shadow-md rounded-lg p-6"
-                whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              >
-                <div className="text-center">
-                  <h4 className="text-xl font-semibold mb-4 text-pink-600 dark:text-pink-400">Libraries/Frameworks</h4>
-                  <div className="flex flex-wrap justify-center gap-2">
-                    {['OpenCV', 'MediaPipe', 'Pandas', 'Flask'].map((skill) => (
-                      <span key={skill} className="px-3 py-1 bg-slate-100 dark:bg-navy-700 text-navy-700 dark:text-slate-200 rounded-full text-sm font-medium">
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
+                </motion.div>
+              ))}
             </div>
           </motion.div>
 

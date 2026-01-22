@@ -27,6 +27,19 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 7,
+      title: 'EF Risk Predictor',
+      description: 'Machine learning web app to predict Erythroblastosis Fetalis risk using CV and clinical data.',
+      longDescription: 'The Erythroblastosis Fetalis Risk Predictor is a machine learning-powered web application that combines computer vision and clinical data analysis to predict the risk of Erythroblastosis Fetalis (EF) in fetuses. It uses CNN for blood smear analysis and Random Forest for risk prediction.',
+      image: '/projects/virtual-mouse.jpg',
+      tech: ['Python', 'Streamlit', 'PyTorch', 'Scikit-learn', 'OpenCV'],
+      icons: [Brain, Eye],
+      github: 'https://github.com/linuzenas/Erythroblastosis-Fetalis-EF-Risk-Predictor',
+      live: null,
+      featured: true,
+      gradient: 'from-red-500 to-pink-600'
+    },
+    {
       id: 1,
       title: 'Multi-Channel-Placement-Notify',
       description: 'A Flask-based web application for managing placement communication at KARE with Excel uploads, Telegram notifications, and email alerts.',
