@@ -84,7 +84,7 @@ const Experience = () => {
       degree: 'B.Tech Information Technology',
       institution: 'Kalasalingam University',
       period: '2023 - 2027 (Expected)',
-      grade: 'CGPA: 6.94 / 10',
+      grade: 'CGPA: 7.05 / 10',
       description: 'Comprehensive study of computer science fundamentals, software engineering, and emerging technologies.',
       courses: ['Data Structures & Algorithms', 'Database Management', 'Software Engineering', 'Machine Learning', 'Web Development'],
       icon: GraduationCap,
