@@ -43,7 +43,7 @@ const Education = () => {
     {
       institution: "Kalasalingam Academy of Research and Education",
       degree: "B.Tech Information Technology",
-      period: "2021 - 2025",
+      period: "2023 - 2027",
       grade: "CGPA: 7.05/10",
       icon: GraduationCap,
       color: "from-blue-500 to-blue-700"
@@ -51,7 +51,7 @@ const Education = () => {
     {
       institution: "DR.BRR'S Genesis Academy",
       degree: "Intermediate(11th,12th), Biology, Physics, Chemistry",
-      period: "2019 - 2021",
+      period: "2020 - 2022",
       grade: "Grade: 735",
       icon: School,
       color: "from-green-500 to-green-700"
@@ -59,7 +59,7 @@ const Education = () => {
     {
       institution: "St.Paul's Model School",
       degree: "10th",
-      period: "2018 - 2019",
+      period: "2020",
       grade: "Grade: 598",
       activities: "Activities and societies: Volleyball",
       icon: BookOpen,
