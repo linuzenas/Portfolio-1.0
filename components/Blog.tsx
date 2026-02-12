@@ -23,6 +23,21 @@ const Blog = () => {
 
   const blogPosts = [
     {
+      id: 4,
+      title: 'Bridging Engagement Analytics and Task Management for Quality Online Education: An SDG 4 Approach',
+      excerpt: 'Developed EduVision Analyzer, a real-time system designed to address the engagement gap in digital learning environments. By combining Computer Vision for engagement tracking and NLP for automated task extraction.',
+      content: 'Developed EduVision Analyzer, a real-time system designed to address the engagement gap in digital learning environments. By combining Computer Vision for engagement tracking (emotion, gaze, activity) and NLP for automated task extraction, the system offers a novel way to support both students and educators. Crucially, it moves beyond monitoring to action, automatically syncing lecture deliverables to task management platforms like Trello to ensure no student falls behind.',
+      image: '/blog/education-analytics.jpg',
+      author: 'Petlu Linu Zenas Paul',
+      date: '2025-12-01',
+      readTime: 'Research Paper',
+      tags: ['Engagement Analytics', 'Task Management', 'SDG 4', 'Computer Vision', 'NLP'],
+      platform: 'Springer Nature',
+      url: 'https://assets-eu.researchsquare.com/files/rs-8252131/v1_covered_f21bbb89-2907-4722-99e5-740c892a359d.pdf?c=1770217894',
+      featured: true,
+      gradient: 'from-blue-600 to-indigo-700'
+    },
+    {
       id: 1,
       title: 'Figma — Beginner\'s Guide',
       excerpt: 'A comprehensive guide to getting started with Figma, covering the basics of design, prototyping, and collaboration features.',
@@ -33,7 +48,7 @@ const Blog = () => {
       readTime: '8 min read',
       tags: ['Design', 'Figma', 'UI/UX', 'Tutorial'],
       platform: 'Medium',
-      url: 'https://medium.com/@petluzenas/figma-beginners-guide',
+      url: 'https://medium.com/@petluzenas/figma-0429db220417',
       featured: true,
       gradient: 'from-purple-500 to-pink-500'
     },
