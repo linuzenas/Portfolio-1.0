@@ -156,7 +156,7 @@ const About = () => {
                   {/* Profile image container */}
                   <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-navy-700 shadow-2xl">
                     <Image
-                      src="/blog/P.jpg"
+                      src="/P.jpg"
                       alt="P Linu Zenas Paul"
                       fill
                       className="object-cover"
