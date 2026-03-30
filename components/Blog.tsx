@@ -246,10 +246,7 @@ const Blog = () => {
                 </motion.article>
               ))}
             </div>
-
-          {/* Removed "More Articles" section as requested */}
-
-          {/* Stay Updated section removed as requested */}
+          </motion.div>
         </motion.div>
       </div>
     </section>
