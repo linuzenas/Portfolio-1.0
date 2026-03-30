@@ -27,6 +27,22 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      title: 'Computer Vision / Data Analysis Intern',
+      company: 'PhytoMaps',
+      period: 'Present',
+      type: 'Internship',
+      icon: Brain,
+      color: 'from-blue-500 to-cyan-500',
+      description: 'Working on drone-based aerial imagery analysis for plant health monitoring and landscape management.',
+      achievements: [
+        'Assisting in processing and visualizing geospatial data to generate plant health maps and analytical insights.',
+        'Supporting development of data-driven visual reports for detecting plant stress and environmental patterns.'
+      ],
+      skills: ['Computer Vision', 'Data Analysis', 'Python', 'OpenCV'],
+      current: true
+    },
+    {
+      id: 2,
       title: 'Vice President',
       company: 'Coding Blocks Student Chapter KARE',
       period: '2025 - Present',
@@ -40,10 +56,10 @@ const Experience = () => {
         'Collaborated with industry professionals for events and more'
       ],
       skills: ['Leadership', 'Event Management', 'Public Speaking'],
-      current: true
+      current: false
     },
     {
-      id: 2,
+      id: 3,
       title: 'ML Core Team Member',
       company: 'Microsoft Learn Student Chapter KARE',
       period: '2024 - 2025',
@@ -61,7 +77,7 @@ const Experience = () => {
       current: false
     },
     {
-      id: 3,
+      id: 4,
       title: 'Python Intern',
       company: 'CSEdge',
       period: '2024',

@@ -34,53 +34,29 @@ const About = () => {
 
   const skillCategories = [
     { 
-      title: 'Frontend & Web', 
-      skills: ['React.js', 'Next.js', 'HTML5', 'Tailwind CSS', 'JavaScript'],
+      title: 'Programming, Backend & Web', 
+      skills: ['Python', 'JavaScript', 'SQL', 'Node.js', 'React.js', 'Next.js', 'HTML5', 'Tailwind CSS', 'REST APIs', 'XML', 'DAX'],
       color: 'from-blue-400 to-blue-600',
       icon: Layout
     },
     { 
-      title: 'Languages', 
-      skills: ['Python', 'JavaScript', 'SQL', 'XML', 'DAX'],
-      color: 'from-green-400 to-green-600',
-      icon: Code
-    },
-    { 
-      title: 'Machine Learning', 
-      skills: ['Machine Learning', 'Computer Vision', 'NLP'],
+      title: 'Machine Learning & Data', 
+      skills: ['Machine Learning', 'Computer Vision', 'NLP', 'Data Cleaning', 'Data Modeling', 'Pandas', 'NumPy', 'Power BI', 'Advanced Excel', 'Data Pipelines', 'ETL Concepts'],
       color: 'from-purple-400 to-purple-600',
       icon: Brain
     },
     { 
-      title: 'Data & Analytics', 
-      skills: ['Data Cleaning', 'Data Modeling', 'Pandas', 'NumPy', 'Power BI'],
-      color: 'from-yellow-400 to-orange-600',
-      icon: BarChart
-    },
-    { 
-      title: 'Libraries', 
-      skills: ['OpenCV', 'MediaPipe', 'Streamlit', 'Flask', 'Tkinter'],
+      title: 'Frameworks & Tools', 
+      skills: ['OpenCV', 'MediaPipe', 'Streamlit', 'Flask', 'Tkinter', 'Docker', 'CI/CD Pipelines', 'Git', 'GitHub', 'Figma', 'Trello', 'Android Studio'],
       color: 'from-pink-400 to-pink-600',
       icon: Cpu
     },
     { 
-      title: 'Databases', 
-      skills: ['MongoDB', 'MySQL'],
+      title: 'Databases & Cloud', 
+      skills: ['MongoDB (Atlas, Compass)', 'MySQL', 'AWS'],
       color: 'from-indigo-400 to-indigo-600',
       icon: Database
     },
-    { 
-      title: 'Cloud & DevOps', 
-      skills: ['Azure', 'CI/CD', 'Docker'],
-      color: 'from-cyan-400 to-cyan-600',
-      icon: Cloud
-    },
-    { 
-      title: 'Developer Tools', 
-      skills: ['Git', 'GitHub', 'Figma', 'REST APIs', 'Android Studio'],
-      color: 'from-slate-400 to-slate-600',
-      icon: Terminal
-    }
   ]
 
   const timeline = [
@@ -111,6 +87,13 @@ const About = () => {
       description: 'Became Vice President of Coding Blocks and ML Core Team Member at Microsoft Learn',
       icon: Target,
       color: 'from-orange-500 to-red-500'
+    },
+    {
+      year: '2026',
+      title: 'Published Research Paper',
+      description: 'Published my research paper on \"Bridging Engagement Analytics and Task Management for Quality Online Education\"',
+      icon: Lightbulb,
+      color: 'from-yellow-500 to-amber-500'
     },
   ]
 
@@ -173,7 +156,7 @@ const About = () => {
                   {/* Profile image container */}
                   <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-navy-700 shadow-2xl">
                     <Image
-                      src="/blog/P.jpg"
+                      src="/P.jpg"
                       alt="P Linu Zenas Paul"
                       fill
                       className="object-cover"
@@ -252,7 +235,7 @@ const About = () => {
                     </h4>
                   </div>
                   <p className="text-navy-600 dark:text-slate-400">
-                    Kalasalingam University • 2021 - 2027 (Expected)
+                    Kalasalingam University • 2023 - 2027 (Expected)
                   </p>
                 </div>
               </div>
