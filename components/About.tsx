@@ -156,7 +156,7 @@ const About = () => {
                   {/* Profile image container */}
                   <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-navy-700 shadow-2xl">
                     <Image
-                      src="/P.jpg"
+                      src="/blog/P.jpg"
                       alt="P Linu Zenas Paul"
                       fill
                       className="object-cover"
@@ -210,15 +210,10 @@ const About = () => {
                   Hello! I'm P Linu Zenas Paul
                 </h3>
                 <p className="text-navy-600 dark:text-slate-400 leading-relaxed">
-                  I'm a 3rd-year B.Tech Information Technology student at Kalasalingam University, 
-                  passionate about frontend development, UI/UX design, and AI-powered projects. 
-                  I love transforming ideas into beautiful, functional digital experiences that 
-                  make a difference.
+                  I’m a 3rd-year B.Tech Information Technology student at Kalasalingam University, focused on building machine learning and data-driven systems. I have hands-on experience developing ML models, automation tools, and computer vision applications using Python, SQL, and backend technologies.
                 </p>
                 <p className="text-navy-600 dark:text-slate-400 leading-relaxed">
-                  Currently, I'm focusing on mastering React, exploring AI/ML concepts, and 
-                  building innovative projects that combine creativity with technology. I'm 
-                  always eager to learn new technologies and take on exciting challenges.
+                  Currently, I’m working as a Computer Vision and Data Analysis Intern, where I analyze aerial imagery and build data pipelines for real-world problem solving. I enjoy working on projects that combine machine learning, backend systems, and practical deployment, and I’m continuously improving my skills in building scalable, data-driven applications.
                 </p>
               </div>
 
