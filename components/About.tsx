@@ -230,7 +230,7 @@ const About = () => {
                     </h4>
                   </div>
                   <p className="text-navy-600 dark:text-slate-400">
-                    Kalasalingam University • 2023 - 2027 (Expected) • CGPA: 7.19
+                    Kalasalingam University • 2023 - 2027 (Expected)
                   </p>
                 </div>
               </div>
