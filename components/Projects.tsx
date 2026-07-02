@@ -27,6 +27,19 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 8,
+      title: 'EduVision Analyzer',
+      description: 'Multimodal student engagement analytics with automated task management for SDG 4 aligned quality online education (Published Research Paper)',
+      longDescription: 'EduVision Analyzer is a multimodal end-to-end system that bridges student engagement analytics with automated task management to address United Nations (UN) Sustainable Development Goal 4 (SDG 4 – Quality Education). The system accepts post-class video, audio, and live webcam input, applying computer vision for affect estimation, physical activity tracking, and eye-state monitoring, alongside Natural Language Processing (NLP) for lecture summarization and actionable task extraction. A key architectural contribution is the direct integration with task management tools: action items inferred from lecture transcripts are automatically synchronized to student Trello boards, creating a closed-loop accountability mechanism.',
+      image: '/projects/education-analytics.jpg',
+      tech: ['Python', 'Computer Vision', 'NLP', 'Trello API', 'OpenCV', 'Speech Recognition'],
+      icons: [Eye, Brain, MessageSquare],
+      github: null,
+      live: 'https://link.springer.com/article/10.1007/s44217-026-01731-3',
+      featured: true,
+      gradient: 'from-blue-500 to-indigo-600'
+    },
+    {
       id: 7,
       title: 'EF Risk Predictor',
       description: 'Machine learning web app to predict Erythroblastosis Fetalis risk using CV and clinical data.',
