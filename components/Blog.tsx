@@ -29,11 +29,11 @@ const Blog = () => {
       content: 'Developed EduVision Analyzer, a real-time system designed to address the engagement gap in digital learning environments. By combining Computer Vision for engagement tracking (emotion, gaze, activity) and NLP for automated task extraction, the system offers a novel way to support both students and educators. Crucially, it moves beyond monitoring to action, automatically syncing lecture deliverables to task management platforms like Trello to ensure no student falls behind.',
       image: '/blog/education-analytics.jpg',
       author: 'Petlu Linu Zenas Paul',
-      date: '2025-12-01',
+      date: '2026-07-02',
       readTime: 'Research Paper',
       tags: ['Engagement Analytics', 'Task Management', 'SDG 4', 'Computer Vision', 'NLP'],
       platform: 'Springer Nature',
-      url: 'https://assets-eu.researchsquare.com/files/rs-8252131/v1_covered_f21bbb89-2907-4722-99e5-740c892a359d.pdf?c=1770217894',
+      url: 'https://link.springer.com/article/10.1007/s44217-026-01731-3',
       featured: true,
       gradient: 'from-blue-600 to-indigo-700'
     },

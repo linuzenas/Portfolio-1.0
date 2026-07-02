@@ -218,8 +218,8 @@ const Hero = () => {
             </motion.button>
 
             <motion.a
-              href="/Zenas Resume_30.03.2026.pdf"
-              download="Zenas_Resume_30.03.2026.pdf"
+              href="/Zenas Resume 02.07.2026.pdf"
+              download="Zenas Resume 02.07.2026.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="btn-secondary flex items-center space-x-2 border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white"
