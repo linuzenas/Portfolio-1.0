@@ -91,7 +91,7 @@ const About = () => {
     {
       year: '2026',
       title: 'Published Research Paper',
-      description: 'Published my research paper on \"Bridging Engagement Analytics and Task Management for Quality Online Education\"',
+      description: 'Published \"Multimodal student engagement analytics with automated task management for SDG 4 aligned quality online education\" in Springer Nature on June 20, 2026',
       icon: Lightbulb,
       color: 'from-yellow-500 to-amber-500'
     },
@@ -230,7 +230,7 @@ const About = () => {
                     </h4>
                   </div>
                   <p className="text-navy-600 dark:text-slate-400">
-                    Kalasalingam University • 2023 - 2027 (Expected)
+                    Kalasalingam University • 2023 - 2027 (Expected) • CGPA: 7.19
                   </p>
                 </div>
               </div>
