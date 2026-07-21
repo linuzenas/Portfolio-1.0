@@ -23,7 +23,8 @@ import {
   LuBarChart as BarChart,
   LuTerminal as Terminal,
   LuCpu as Cpu,
-  LuLayout as Layout
+  LuLayout as Layout,
+  LuUsers as Users
 } from 'react-icons/lu'
 
 const About = () => {
