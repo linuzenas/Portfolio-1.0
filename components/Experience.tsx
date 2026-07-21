@@ -59,6 +59,23 @@ const Experience = () => {
       current: true
     },
     {
+      id: 5,
+      title: 'Vice President',
+      company: 'Coding Blocks Student Chapter KARE',
+      period: '2025 - 2026',
+      type: 'Leadership',
+      icon: Crown,
+      color: 'from-yellow-500 to-orange-500',
+      description: 'Led the student chapter to promote coding culture and organize technical events.',
+      achievements: [
+        'Organized 5+ Hackathons and coding competitions',
+        'Increased chapter community by 100+ members through strategic initiatives',
+        'Collaborated with industry professionals for events and more'
+      ],
+      skills: ['Leadership', 'Event Management', 'Public Speaking'],
+      current: false
+    },
+    {
       id: 3,
       title: 'ML Core Team Member',
       company: 'Microsoft Learn Student Chapter KARE',
