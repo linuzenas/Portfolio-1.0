@@ -84,9 +84,16 @@ const About = () => {
     {
       year: '2025',
       title: 'Leadership Roles',
-      description: 'Became Vice President of Coding Blocks and ML Core Team Member at Microsoft Learn',
+      description: 'Served as Vice President of Coding Blocks and ML Core Team Member at Microsoft Learn',
       icon: Target,
       color: 'from-orange-500 to-red-500'
+    },
+    {
+      year: '2026',
+      title: 'Mentorship Role',
+      description: 'Became Mentor at Coding Blocks Student Chapter KARE',
+      icon: Users,
+      color: 'from-blue-500 to-indigo-500'
     },
     {
       year: '2026',

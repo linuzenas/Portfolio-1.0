@@ -43,20 +43,20 @@ const Experience = () => {
     },
     {
       id: 2,
-      title: 'Vice President',
+      title: 'Mentor',
       company: 'Coding Blocks Student Chapter KARE',
-      period: '2025 - Present',
-      type: 'Leadership',
-      icon: Crown,
-      color: 'from-yellow-500 to-orange-500',
-      description: 'Leading the student chapter to promote coding culture and organize technical events.',
+      period: '2026 - Present',
+      type: 'Mentorship',
+      icon: Users,
+      color: 'from-blue-500 to-indigo-500',
+      description: 'Mentoring students in programming, problem-solving, and project development.',
       achievements: [
-        'Organized 5+ Hackathons and coding competitions',
-        'Increased chapter community by 100+ members through strategic initiatives',
-        'Collaborated with industry professionals for events and more'
+        'Guiding students in data structures, algorithms, and machine learning',
+        'Conducting mentorship sessions for technical skill development',
+        'Supporting students in project ideation and implementation'
       ],
-      skills: ['Leadership', 'Event Management', 'Public Speaking'],
-      current: false
+      skills: ['Mentorship', 'Teaching', 'Problem Solving', 'Leadership'],
+      current: true
     },
     {
       id: 3,
